@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: "@Rushik-Ghuntala",
-    // images: ["/images/open-graph-sagar.png"], // Wrap single image in an array
+    // images: ["/images/open-graph.png"], // Wrap single image in an array
   },
   icons: {
     icon: "/favicon.ico",

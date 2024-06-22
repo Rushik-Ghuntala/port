@@ -1,6 +1,5 @@
 import { MapPin } from "lucide-react";
 
-import SagarHeadshot from "/public/images/sagar-headshot.jpg";
 import RushikProfile from "/public/images/rushik-profile.jpg";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
@@ -16,7 +15,7 @@ const HeroSection = () => {
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={RushikProfile}
-              alt="Headshot of Sagar"
+              alt="Headshot of Rushik"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: "cover" }}
             />

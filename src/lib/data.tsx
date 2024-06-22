@@ -48,11 +48,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: "https://github.com/Rushik-Ghuntala",
-  GITHUB_REPO: "https://github.com/shahsagarm/sagarshah.dev",
-  TWITTER: "https://twitter.com/shahsagarm",
-  FIGMA: "https://www.figma.com/@shahsagarm",
-  FIGMA_FILE:
-    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
+  GITHUB_REPO: "https://github.com/Rushik-Ghuntala/rushik-ghuntala-portfolio",
 };
 
 export const NAV_LINKS = [
@@ -61,12 +57,12 @@ export const NAV_LINKS = [
     href: "#about",
   },
   {
-    label: "Work",
-    href: "#work",
+    label: "Experience",
+    href: "#experience",
   },
   {
-    label: "Testimonials",
-    href: "#testimonials",
+    label: "Work",
+    href: "#work",
   },
   {
     label: "Contact",
@@ -81,7 +77,7 @@ export const SOCIAL_LINKS = [
   },
   // {
   //   icon: Twitter,
-  //   url: "https://twitter.com/shahsagarm",
+  //   url: "https://twitter.com/",
   // },
   {
     icon: LinkedinIcon,
@@ -208,6 +204,8 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       "StudyNotion is a versatile and intuitive ed-tech platform that is designed to provide an immersive learning experience to students and a platform for instructors to showcase their expertise. StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.",
     url: "https://studynotion-rushik-ghuntala.vercel.app/",
+    docUrl:
+      "https://docs.google.com/document/d/1EGAhe3zHebl7BXTI8RGuNj9f7xQzbcV86h-xoEdxcYk/edit#heading=h.gjdgxs",
     previewImage: ProjectStudyNotion,
     technologies: [
       "React",
@@ -226,6 +224,8 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       "TIX-ID is developing a user-friendly movie ticket booking app for seamless online ticket purchases. Key features include movie browsing, showtime selection, seat choice, and secure payments. User authentication ensures access to booking features, with rigorous testing ensuring reliability. The aim is to enhance convenience and accessibility in entertainment with a streamlined ticket booking experience.",
     url: "https://tix-id-chi.vercel.app/",
+    docUrl:
+      "https://docs.google.com/document/d/19YyFwscj0VAq_5etW-Z59UffF8zTPQDPmMSxQe3JO-8/edit?usp=sharing",
     previewImage: ProjectTixId,
     technologies: [
       "React",
@@ -241,7 +241,9 @@ export const PROJECTS: ProjectDetails[] = [
     name: "Blockchain-based Decentralized Research Publishing System (B-DRPS)",
     description:
       "The project outlined in the introduction is a blockchain-based solution aimed at revolutionizing the traditional peer-review system used in academic publishing. The current centralized approach faces significant challenges, including the risk of impersonation, biased reviewing, slow review processes, and a lack of transparency. To address these issues, the project leverages blockchain technology, which offers inherent immutability, traceability, and transparency.",
-    url: "https://pepehousing.com",
+    url: "https://docs.google.com/document/d/1OzYEx7sGKR7WTgsC_M4DJW5KvCXih7Od7YoOv3-XIdA/edit?usp=sharing",
+    docUrl:
+      "https://docs.google.com/document/d/1OzYEx7sGKR7WTgsC_M4DJW5KvCXih7Od7YoOv3-XIdA/edit?usp=sharing",
     previewImage: ProjectBDRPS,
     technologies: [
       "Solidity",
@@ -259,7 +261,8 @@ export const PROJECTS: ProjectDetails[] = [
     name: "Greenity - A Unity Make India Greener",
     description:
       "Led front-end development for Greenity, connecting citizens and municipalities through event-based tree planting for urban greenery. Designed 15+ screens and managed front-end and back-end tasks, including CRUD operations in Firebase, QR code generation, data retrieval via QR scanning and bug resolution. Presented the app with a team of 5 at the SSIP-Gujarat Hackathon, advancing to the Final round.",
-    url: "https://tix-id-chi.vercel.app/",
+    url: "https://rushik-ghuntala-portfolio.vercel.app/",
+    docUrl: "https://rushik-ghuntala-portfolio.vercel.app/",
     previewImage: ProjectGreenity,
     technologies: ["Dart", "Flutter", "Firebase"],
   },
@@ -267,7 +270,9 @@ export const PROJECTS: ProjectDetails[] = [
     name: "Doc - GPT",
     description:
       "Created Doc-GPT where users can upload a document file and ask questions related to the document. The system provides answers based on the content of the document.",
-    url: "https://tix-id-chi.vercel.app/",
+    url: "https://docs.google.com/document/d/1m8lBqflcGlfLP8gypmJOVV0ebGjavkFKXpBW7THJ7X8/edit?usp=sharing",
+    docUrl:
+      "https://docs.google.com/document/d/1m8lBqflcGlfLP8gypmJOVV0ebGjavkFKXpBW7THJ7X8/edit?usp=sharing",
     previewImage: ProjectDocGPT,
     technologies: ["Dart", "Flutter", "Firebase", "Python", "Machine Learning"],
   },
@@ -279,7 +284,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarKrisztian,
     title: "Founder - inboxgenie.io",
     testimonial:
-      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
+      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rushik and will rehire in the future for Frontend development.",
   },
   {
     personName: "Eugen Esanu",
@@ -293,6 +298,6 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: "Freelancer",
     testimonial:
-      "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+      "Rushik was extremely easy and pleasant to work with and he truly cares about the project being a success. Rushik has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
