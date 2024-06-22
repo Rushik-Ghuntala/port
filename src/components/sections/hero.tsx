@@ -1,11 +1,10 @@
 import { MapPin } from "lucide-react";
 
 import SagarHeadshot from "/public/images/sagar-headshot.jpg";
-// import RushikProfile from "/public/images/Rushik-Profile.jpg";
+import RushikProfile from "/public/images/Rushik-Profile.jpg";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
-import { imageConfig } from "@/lib/data";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -15,14 +14,12 @@ const HeroSection = () => {
         {/* Image */}
         <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
-            {/* <Image
-              src={imageConfig.RushikProfile}
-              width={280}
-              height={280}
+            <Image
+              src={RushikProfile}
               alt="Headshot of Sagar"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: "cover" }}
-            /> */}
+            />
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
           </div>
         </div>
@@ -35,17 +32,18 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋🏻</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              I&apos;m a seasoned full stack developer specializing in Next.js,
+              React.js, and Node.js, with a knack for seamless database
+              integration. Beyond development, I excel in design, crafting
+              captivating animations and visually stunning user interfaces that
+              elevate digital experiences. With over 2 years in web application
+              creation, my passion for innovation remains as strong as ever.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Ahmedabad, India</Typography>
+              <Typography>Gujarat, India</Typography>
             </div>
 
             <div className="flex items-center gap-2">

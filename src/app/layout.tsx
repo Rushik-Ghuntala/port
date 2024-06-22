@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/header";
 import { Providers } from "@/lib/providers";
+import Footer from "@/components/layout/footer";
 
 const title = "Rushik Ghuntala | Full Stack Developer";
 const description =
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: "@Rushik-Ghuntala",
-    images: ["/images/open-graph-sagar.png"], // Wrap single image in an array
+    // images: ["/images/open-graph-sagar.png"], // Wrap single image in an array
   },
   icons: {
     icon: "/favicon.ico",
@@ -68,7 +69,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
-          {/* <Footer /> */}
+          <Footer />
         </Providers>
       </body>
     </html>

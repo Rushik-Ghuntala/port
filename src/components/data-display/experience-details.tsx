@@ -25,7 +25,7 @@ const ExperienceDetails = ({
           src={logo}
           srcForDarkMode={darkModeLogo}
           alt={logoAlt}
-          className="max-w-[120px]"
+          className="max-w-[140px]"
         />
       </div>
       <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
