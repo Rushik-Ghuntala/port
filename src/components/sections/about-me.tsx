@@ -34,7 +34,7 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I'm a seasoned full-stack developer specializing in Next.js,
+            I&apos;m a seasoned full-stack developer specializing in Next.js,
             React.js, and Node.js, with a knack for seamless database
             integration. Beyond development, I am enthusiastic about bringing
             the technical and visual aspects of digital products to life. User
@@ -54,8 +54,8 @@ const AboutMeSection = () => {
             Engineer.
           </Typography>
           <Typography>
-            Currently, as a Full Stack Developer, I'm building futuristic and
-            advanced websites using modern technologies such as Next.js,
+            Currently, as a Full Stack Developer, I&apos;m building futuristic
+            and advanced websites using modern technologies such as Next.js,
             TypeScript, React.js, Redux, Tailwind CSS, Express.js, Supabase,
             PostgreSQL, Firebase, MongoDB, and many more.
           </Typography>
