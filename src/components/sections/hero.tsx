@@ -1,7 +1,7 @@
 import { MapPin } from "lucide-react";
 
 import SagarHeadshot from "/public/images/sagar-headshot.jpg";
-import RushikProfile from "/public/images/Rushik-Profile.jpg";
+import RushikProfile from "/public/images/rushik-profile.jpg";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
