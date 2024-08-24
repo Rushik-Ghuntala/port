@@ -4,7 +4,7 @@ import Button from '@/components/general/button';
 
 const DownloadCV = () => {
   return (
-    <Button onClick={() => window?.open('/files/BtechIT_Rushik_Ghuntala.pdf', '_blank')} className='p-3'>
+    <Button onClick={() => window?.open('/files/Rushik_Ghuntala_BTech_IT.pdf', '_blank')} className='p-3'>
       Download Resume
     </Button>
   );
